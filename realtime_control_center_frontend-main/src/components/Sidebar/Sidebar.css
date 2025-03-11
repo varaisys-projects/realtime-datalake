@@ -1,0 +1,36 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+.bg-dark{
+    background-color: #e6e6e6 !important;
+}
+.text-white{
+    color: black !important;
+}
+.nav-link {
+    display: block;
+    padding: 1rem 1rem;
+    font-size:22px;
+    font-weight: var(--bs-nav-link-font-weight);
+    color: black;
+    text-decoration: none;
+    
+}
+.nav-link:hover{
+    color: #666699;
+}
+.navbar-light{
+    background-color: #e6e6e6 !important;
+    padding: 10px 15px;
+    margin-top: 3px;
+    border-radius: 15px;
+}
+
+ 

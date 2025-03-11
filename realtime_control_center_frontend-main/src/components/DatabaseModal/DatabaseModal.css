@@ -1,0 +1,38 @@
+.database-modal-header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 50px;
+    /* background-color: brown; */
+}
+
+.database_details{
+    margin-top: 10px;
+    /* background-color: blueviolet; */
+    padding: 10px;
+}
+
+.database_field{
+    width: 100%;
+    display: flex;
+    /* justify-content:space-between; */
+    /* align-items: center; */
+    gap:2px;
+    margin-bottom: 20px;
+    /* background-color: brown; */
+    flex-direction: column;
+}
+
+.database_field input{
+    border-width: 2px;
+    padding: 5px;
+}
+
+.database_field label{
+    font-weight:500;
+}
+
+.modal_buttons{
+    display: flex;
+    justify-content: space-between;
+}

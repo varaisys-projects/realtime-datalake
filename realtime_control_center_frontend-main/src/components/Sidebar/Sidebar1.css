@@ -1,0 +1,144 @@
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+    /* width: 20%; Adjust width as needed */
+    background-color: #e6e6e6; /* Matches .bg-dark */
+    min-height: 100vh; /* Full viewport height */
+    color: black; /* Matches .text-white */
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .sidebar-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem; /* Equivalent to fs-5 */
+    font-weight:bold;
+  }
+  
+  .sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* background-color: red; */
+  }
+  
+  .sidebar-item {
+    margin-bottom: 0.5rem; /* Space between items */
+  }
+  
+ .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    /* background-color: green; */
+  }
+
+  .nav-link i {
+    margin-right: 10px;
+  }
+  
+  /* .nav-link:hover {
+    color: #414189;
+  } */
+  .nav-link:hover {
+    color: white; /* Change text color on hover */
+    background-color: #6c757d; /* Change background color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+    border-radius: 5px; /* Optional: Add rounded corners */
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  
+  .divider:after,
+  .divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+  }
+  
+  .dropdown {
+    padding-top: 1rem;
+  }
+  
+  .dropdown-toggle {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .profile-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .profile-name {
+    margin-left: 0.5rem;
+  }
+  
+  .dropdown-menu {
+    display: none; /* Add functionality to show/hide dropdown */
+    flex-direction: column;
+    background-color: #e6e6e6;
+    padding: 0.5rem;
+    list-style: none;
+    margin: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Matches shadow */
+  }
+  
+  .dropdown-item {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .dropdown-divider {
+    height: 1px;
+    background: #eee;
+  }
+  
+  .h-custom {
+    height: calc(100% - 73px);
+  }
+  
+  .navbar-light {
+    background-color: #e6e6e6;
+    padding: 10px 15px;
+    margin-top: 3px;
+    border-radius: 15px;
+  }
+  
+  .first-box {
+    margin-top: 10px;
+  }
+  
+  .first-box .card-body {
+    text-align: center;
+  }
+  
+  .first-box .card {
+    background-color: #f0f0f5;
+  }
+  

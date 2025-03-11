@@ -1,0 +1,13 @@
+.moadlMainDiv{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* width: 100% */
+}
+
+.tree{
+    overflow-y: auto;
+    margin:20px;
+    /* background-color: aqua; */
+    flex:1;
+}

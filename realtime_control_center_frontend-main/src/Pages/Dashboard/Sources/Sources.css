@@ -1,0 +1,58 @@
+.sources {
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .databaseList{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    height: 90vh;
+    overflow-y: auto;
+    width: 100%;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}  */
+
+/* src/components/MainContentArea/Connections/Connections.css */
+
+.search-bar {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 10px;
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+.databaseList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* flex-grow: 1;  This makes the databaseList take up remaining space */
+    height: 80vh;
+    overflow-y: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+}
